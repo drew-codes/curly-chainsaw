@@ -1,4 +1,4 @@
-### Productivity app
+# Productivity app
 
 Description to come soon...
 
