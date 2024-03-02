@@ -1,0 +1,14 @@
+[tasks.build]
+description = "Build the Rust project"
+command = "cargo"
+args = ["build"]
+
+[tasks.serve]
+description = "Serve the project using basic-http-server"
+# Make sure to adjust the command if basic-http-server is not in your PATH
+command = "basic-http-server"
+args = ["."]
+
+[tasks.start]
+description = "Build and serve the project"
+dependencies = ["build", "serve"]
