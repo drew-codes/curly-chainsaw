@@ -1,7 +1,7 @@
 [tasks.build]
 description = "Build the Rust project"
 command = "cargo"
-args = ["build"]
+args = ["build", "--target", "wasm32-unknown-unknown"]
 
 [tasks.serve]
 description = "Serve the project using basic-http-server"
